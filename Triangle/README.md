@@ -12,7 +12,7 @@
 
 
 
-## Link to GitHub:
+## Link to GitHub:https://github.com/Maxwelnyadiero/Triangle-Tracker/pulls
 
 
 
