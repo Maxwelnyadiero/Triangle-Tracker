@@ -1,24 +1,14 @@
-h1 {
+h1{
   color: pink;
-  font-size: 30px;
-  font-family: cursive;
   text-align: center;
   text-decoration: underline;
+  font-size: 30px
 }
 p{
-  color: inherit;
-  font-family: cursive;
+  color: orange;
   font-size: 20px;
+  padding: 10px;
   border: 1px solid powederblue;
-  padding:30px
-}
-.first-Triangle{
-  color: black;
-  font-size: 15;
   font-family: cursive;
-  padding: 5px;
-}
-}
-body{
-  background-image:url =("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVo8ellB9ntjNks2TOfvIywHEloS3_ZVE352FRBwVdtLSqhx8aQ");https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVo8ellB9ntjNks2TOfvIywHEloS3_ZVE352FRBwVdtLSqhx8aQ
+
 }
