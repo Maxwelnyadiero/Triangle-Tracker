@@ -12,3 +12,8 @@ p{
   font-family: cursive;
 
 }
+ol{
+  color: black;
+  font-size: 10px;
+  border: 1px solid green;
+}
