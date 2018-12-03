@@ -1,11 +1,11 @@
 h1{
-  color: pink;
+  color: red;
   text-align: center;
   text-decoration: underline;
   font-size: 30px
 }
 p{
-  color: orange;
+  color: black;
   font-size: 20px;
   padding: 10px;
   border: 1px solid powederblue;
@@ -25,4 +25,7 @@ README.md{
 }
 body{
   background-color: inherit;
+}
+.input[type="submit"]{
+  colour:green
 }

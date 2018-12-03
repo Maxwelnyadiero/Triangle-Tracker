@@ -1,27 +1,18 @@
-function result(){
-  var side A = parseInt(document.getElementById('sideA').value);
-  var side B = parseInt(document.getElementById('sideB').value);
-  var side C = parseInt(document.getElementById('sideC').value);
-  var answer = document.getElementById('answer');
-  if(side A+side B>side C && side B+side C>side A+side C>side B){
-    if (side A ==side B&& side A==side C){
-      answer.textContent = 'Equilateral: All side equal!'
-    }
-    else if(side A===side B || side B===side C || side A===side C){
-      answer.textContent='Isosceles:Two sides equal!'
-    }
-    else{
-      answer.textContent="Scalene:No sides equal!";
-        }
+    function result() {
+      var sideA = parseInt(document.getElementById('pointA').value);
+      var sideB = parseInt(document.getElementById('pointB').value);
+      var sideC = parseInt(document.getElementById('pointC').value);
+       if (sideA === sideB && sideB === sideC) {
+        alert("equilateral triangle.");
       }
-      else{
-        answer.textContent="Not a triangle!";
+       else if (sideA === sideB || sideB === sideC || sideA === sideC) {
+        alert("isosceles Triangle");
+      }
+       else if (sideA +sideB > sideC || sideB + sideC >= sideA || sideA + sideC <= sideB) {
+        alert("scalene Triangle");
+      }
+       else {
+        alert("Not a triangle");
       }
     }
-    function reset() {
-      var sideA=parseInt(document.getElementById('sideA').value);
-      var sideB=parseInt(document.textElemenById('sideB').value);
-      var sideC=parseInt(document.textElementById('sideC').value);
-      var answer=document.getElementById('answer');
-
-    }
+    alert(result());
