@@ -8,5 +8,6 @@ var fruits = ["orange", "mango", "avocado"]
 var lists;
 lists =vegetable.concat(fruit;
   lists;
+  ## Technologies used:The technology used  are,HTML CSS and JS,The major reason is to know how to link HTML CSS JS,hence enable them to work together.
   ## contact information:0702725442
   ## License and copyright information:Maxwelnyadiero
