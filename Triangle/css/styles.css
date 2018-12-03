@@ -29,3 +29,6 @@ body{
 .input[type="submit"]{
   colour:green
 }
+img{
+  float: right;
+}
